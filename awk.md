@@ -21,7 +21,9 @@ NR # total number of records processed by AWK
 awk 'NR==FNR && NR > 1 {a[$0]=1} NR!=FNR && !a[$0]' F1 F2 # print all lines from F2 NOT included in F1, except for the first line of F1 (which we consider a header)
 ```
 
-#### Sources used compiling this file:
+#### Sources:
 [Idiomatic AWK](http://backreference.org/2010/02/10/idiomatic-awk/)
+
 [Arrays](http://kirste.userpage.fu-berlin.de/chemnet/use/info/gawk/gawk_12.html)
-[Built-in variables (GNU)](https://www.gnu.org/software/gawk/manual/html_node/Built_002din-Variables.html)
+
+[Built-in variables](https://www.gnu.org/software/gawk/manual/html_node/Built_002din-Variables.html)
