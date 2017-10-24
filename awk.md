@@ -22,6 +22,6 @@ awk 'NR==FNR && NR > 1 {a[$0]=1} NR!=FNR && !a[$0]' F1 F2 # print all lines from
 ```
 
 #### Sources used compiling this file:
-    * http://backreference.org/2010/02/10/idiomatic-awk/
-    * http://kirste.userpage.fu-berlin.de/chemnet/use/info/gawk/gawk_12.html
-
+[Idiomatic AWK](http://backreference.org/2010/02/10/idiomatic-awk/)
+[Arrays](http://kirste.userpage.fu-berlin.de/chemnet/use/info/gawk/gawk_12.html)
+[Built-in variables (GNU)](https://www.gnu.org/software/gawk/manual/html_node/Built_002din-Variables.html)
